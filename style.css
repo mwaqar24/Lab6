@@ -1,0 +1,87 @@
+.Header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px; 
+    border-width: 3px  ;
+    border-color: rgb(209, 43, 99);
+    border-style: outset;
+}
+
+.logo {
+    width: 10%;
+}
+.Img2{
+width: 30%;
+border:1px solid black
+}
+h2{
+    color:rgb(209, 43, 99)
+}
+.Div1 {
+    font-size: x-large;
+    color: Dark;
+    width: 80%;
+    height: 100%;
+    font-weight: bold;
+    color:rgb(209, 43, 99);
+}
+.Div2{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px; 
+    }
+    .Div3{
+        padding: 30px;
+        text-align: left;
+    }
+.Navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(209, 43, 99);
+    color: white;
+    text-decoration: underline;
+    padding: 10px;
+  margin-bottom: 20px;
+    
+}
+a{
+ 
+    color: white;
+}
+
+.Products-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Product {
+    margin-top: 30px;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px; /* Square shape */
+    height: 280px; /* Square shape */
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+.Product:hover{cursor: pointer;}
+.images{
+    border-radius: 3px;
+      height: 220px;
+      width: 100%; 
+      margin-bottom: 10px;
+      border-bottom: 2px solid rgb(209, 43, 99);
+      
+  }
+  .Name{
+    text-decoration: underline;
+  }
